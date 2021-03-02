@@ -18,9 +18,9 @@ set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:�
 set number relativenumber
 
 call plug#begin('~/.config/nvim/')
-" Plug 'joshdick/onedark.vim'
-" Plug 'iCyMind/NeoSolarized'
-" Plug 'drewtempelmeyer/palenight.vim'
+Plug 'joshdick/onedark.vim'
+Plug 'iCyMind/NeoSolarized'
+Plug 'drewtempelmeyer/palenight.vim'
 Plug 'trevordmiller/nova-vim'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -35,7 +35,7 @@ Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
-colorscheme nova
+colorscheme onedark
 let g:airline_theme='base16'
 
 " buffer movement
